@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Projects\YouBot\youbot_driver\build\CMakeFiles\c21e30d2a420f37e0403b4b9423299d1\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{E351079F-7028-335C-996A-D666E19DF030}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

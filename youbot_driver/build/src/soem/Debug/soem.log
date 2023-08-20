@@ -1,0 +1,35 @@
+﻿  Building Custom Rule C:/Projects/YouBot/youbot_driver/src/soem/CMakeLists.txt
+  ethercatbase.c
+  ethercatcoe.c
+C:\Projects\YouBot\youbot_driver\src\soem\ethercatcoe.c(1200,13): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Projects\YouBot\youbot_driver\src\soem\ethercatcoe.c(1292,13): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  ethercatconfig.c
+C:\Projects\YouBot\youbot_driver\src\soem\ethercatconfig.c(373,13): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Projects\YouBot\youbot_driver\src\soem\ethercatconfig.c(452,16): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  ethercatdc.c
+  ethercatfoe.c
+C:\Projects\YouBot\youbot_driver\src\soem\ethercatfoe.c(126,13): warning C4267: =: преобразование из "size_t" в "uint16"; возможна потеря данных
+C:\Projects\YouBot\youbot_driver\src\soem\ethercatfoe.c(255,13): warning C4267: =: преобразование из "size_t" в "uint16"; возможна потеря данных
+  ethercatmain.c
+C:\Projects\YouBot\youbot_driver\src\soem\ethercatmain.c(920,18): warning C4101: MBXEp: неиспользованная локальная переменная
+C:\Projects\YouBot\youbot_driver\src\soem\ethercatmain.c(919,14): warning C4101: EMp: неиспользованная локальная переменная
+  ethercatprint.c
+C:\Projects\YouBot\youbot_driver\src\soem\ethercatprint.c(340,7): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Projects\YouBot\youbot_driver\src\soem\ethercatprint.c(345,13): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Projects\YouBot\youbot_driver\src\soem\ethercatprint.c(351,13): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Projects\YouBot\youbot_driver\src\soem\ethercatprint.c(357,13): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Projects\YouBot\youbot_driver\src\soem\ethercatprint.c(363,13): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Projects\YouBot\youbot_driver\src\soem\ethercatprint.c(369,13): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Projects\YouBot\youbot_driver\src\soem\ethercatprint.c(375,13): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Projects\YouBot\youbot_driver\src\soem\ethercatprint.c(381,13): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  ethercatsoe.c
+  osal.c
+C:\Projects\YouBot\youbot_driver\src\soem\osal\win32\osal.c(72,52): warning C4028: формальный параметр 1 отличается от объявления
+  nicdrv.c
+  oshw.c
+C:\Projects\YouBot\youbot_driver\src\soem\oshw\win32\oshw.c(73,32): warning C4013: malloc: нет определения; предполагается "extern" с возвратом типа "int"
+C:\Projects\YouBot\youbot_driver\src\soem\oshw\win32\oshw.c(96,10): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Projects\YouBot\youbot_driver\src\soem\oshw\win32\oshw.c(110,10): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Projects\YouBot\youbot_driver\src\soem\oshw\win32\oshw.c(139,7): warning C4013: free: нет определения; предполагается "extern" с возвратом типа "int"
+  Создание кода...
+  soem.vcxproj -> C:\Projects\YouBot\youbot_driver\build\Debug\soem.lib

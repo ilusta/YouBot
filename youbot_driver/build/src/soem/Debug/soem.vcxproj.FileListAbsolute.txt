@@ -1,0 +1,1 @@
+C:\Projects\YouBot\youbot_driver\build\src\soem\Debug\soem.lib

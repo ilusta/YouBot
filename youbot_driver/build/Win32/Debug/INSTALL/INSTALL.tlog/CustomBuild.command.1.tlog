@@ -1,0 +1,10 @@
+^C:\PROJECTS\YOUBOT\YOUBOT_DRIVER\BUILD\CMAKEFILES\F04B84C4C0FD43E458FE72730F175131\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
