@@ -1,7 +1,0 @@
-﻿  Building Custom Rule C:/Projects/YouBot/list_pcap_devices-master/CMakeLists.txt
-  main.cpp
-main.obj : error LNK2019: ссылка на неразрешенный внешний символ pcap_freealldevs в функции main.
-main.obj : error LNK2019: ссылка на неразрешенный внешний символ pcap_findalldevs_ex в функции main.
-C:\Program Files (x86)\WpdPack\Lib\Packet.lib : warning LNK4272: тип компьютера библиотеки "x86" конфликтует с типом целевого компьютера "x64"
-C:\Program Files (x86)\WpdPack\Lib\wpcap.lib : warning LNK4272: тип компьютера библиотеки "x86" конфликтует с типом целевого компьютера "x64"
-C:\Projects\YouBot\list_pcap_devices-master\build\Debug\list_pcap_devices.exe : fatal error LNK1120: неразрешенных внешних элементов: 2
