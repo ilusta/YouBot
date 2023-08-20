@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Projects\YouBot\list_pcap_devices-master\build\CMakeFiles\29aa1b8efe06f90bb257e48ea8a1788f\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{98744BE5-38C9-325E-B0F0-490557D3A041}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Projects\YouBot\list_pcap_devices-master\cmake\FindWinPcap.cmake" />
+  </ItemGroup>
+</Project>
