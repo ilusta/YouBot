@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Projects\YouBot\youbot_driver\src\youbot\EthercatMaster.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\YouBot\youbot_driver\src\youbot\EthercatMasterWithThread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\YouBot\youbot_driver\src\youbot\EthercatMasterWithoutThread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\YouBot\youbot_driver\src\generic\Logger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\YouBot\youbot_driver\src\generic\ConfigFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\YouBot\youbot_driver\src\generic\PidController.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\YouBot\youbot_driver\src\generic-joint\JointData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\YouBot\youbot_driver\src\generic-joint\JointTrajectory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\YouBot\youbot_driver\src\youbot\YouBotJoint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\YouBot\youbot_driver\src\youbot\JointLimitMonitor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\YouBot\youbot_driver\src\youbot\YouBotBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\YouBot\youbot_driver\src\youbot\YouBotManipulator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\YouBot\youbot_driver\src\youbot\YouBotGripper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\YouBot\youbot_driver\src\youbot\YouBotGripperBar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\YouBot\youbot_driver\src\youbot\YouBotGripperParameter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\YouBot\youbot_driver\src\youbot\DataTrace.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\YouBot\youbot_driver\src\youbot\GripperDataTrace.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\YouBot\youbot_driver\src\youbot\YouBotJointParameter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\YouBot\youbot_driver\src\youbot\YouBotJointParameterReadOnly.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\YouBot\youbot_driver\src\youbot\YouBotJointParameterPasswordProtected.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\YouBot\youbot_driver\src\youbot\JointTrajectoryController.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\YouBot\youbot_driver\src\base-kinematic\FourSwedishWheelOmniBaseKinematic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\YouBot\youbot_driver\src\base-kinematic\FourSwedishWheelOmniBaseKinematicConfiguration.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Projects\YouBot\youbot_driver\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{53D09F4E-9686-3DE7-8275-BDAD174E4842}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

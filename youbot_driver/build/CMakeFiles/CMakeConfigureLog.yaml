@@ -1,0 +1,390 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/cmake-3.27.0-rc4-windows-x86_64/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake:211 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.22621 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/cmake-3.27.0-rc4-windows-x86_64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/cmake-3.27.0-rc4-windows-x86_64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/cmake-3.27.0-rc4-windows-x86_64/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+      Сборка начата 24.07.2023 20:47:58.
+      Included response file: C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\MSBuild.rsp
+      
+      Проект "C:\\Projects\\YouBot\\youbot_driver\\build\\CMakeFiles\\3.27.0-rc4\\CompilerIdC\\CompilerIdC.vcxproj" в узле 1 (целевые объекты по умолчанию).
+      PrepareForBuild:
+        Создание каталога "Debug\\".
+        Создание каталога "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Создание "Debug\\CompilerIdC.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Projects\\YouBot\\youbot_driver\\build\\CMakeFiles\\3.27.0-rc4\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Файл "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" удаляется.
+        Обращение к "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Сборка проекта "C:\\Projects\\YouBot\\youbot_driver\\build\\CMakeFiles\\3.27.0-rc4\\CompilerIdC\\CompilerIdC.vcxproj" завершена (целевые объекты по умолчанию).
+      
+      Сборка успешно завершена.
+          Предупреждений: 0
+          Ошибок: 0
+      
+      Прошло времени 00:00:00.63
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Projects/YouBot/youbot_driver/build/CMakeFiles/3.27.0-rc4/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/cmake-3.27.0-rc4-windows-x86_64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/cmake-3.27.0-rc4-windows-x86_64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/cmake-3.27.0-rc4-windows-x86_64/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+      Сборка начата 24.07.2023 20:47:58.
+      Included response file: C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\MSBuild.rsp
+      
+      Проект "C:\\Projects\\YouBot\\youbot_driver\\build\\CMakeFiles\\3.27.0-rc4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" в узле 1 (целевые объекты по умолчанию).
+      PrepareForBuild:
+        Создание каталога "Debug\\".
+        Создание каталога "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Создание "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Projects\\YouBot\\youbot_driver\\build\\CMakeFiles\\3.27.0-rc4\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Файл "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" удаляется.
+        Обращение к "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Сборка проекта "C:\\Projects\\YouBot\\youbot_driver\\build\\CMakeFiles\\3.27.0-rc4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" завершена (целевые объекты по умолчанию).
+      
+      Сборка успешно завершена.
+          Предупреждений: 0
+          Ошибок: 0
+      
+      Прошло времени 00:00:00.48
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Projects/YouBot/youbot_driver/build/CMakeFiles/3.27.0-rc4/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/cmake-3.27.0-rc4-windows-x86_64/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/cmake-3.27.0-rc4-windows-x86_64/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Projects/YouBot/youbot_driver/build/CMakeFiles/CMakeScratch/TryCompile-okl7g8"
+      binary: "C:/Projects/YouBot/youbot_driver/build/CMakeFiles/CMakeScratch/TryCompile-okl7g8"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Projects/YouBot/youbot_driver/build/CMakeFiles/CMakeScratch/TryCompile-okl7g8'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_af3ea.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+        Сборка начата 24.07.2023 20:47:59.
+        Included response file: C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\MSBuild.rsp
+        
+        Проект "C:\\Projects\\YouBot\\youbot_driver\\build\\CMakeFiles\\CMakeScratch\\TryCompile-okl7g8\\cmTC_af3ea.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_af3ea.dir\\Debug\\".
+          Создание каталога "C:\\Projects\\YouBot\\youbot_driver\\build\\CMakeFiles\\CMakeScratch\\TryCompile-okl7g8\\Debug\\".
+          Создание каталога "cmTC_af3ea.dir\\Debug\\cmTC_af3ea.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_af3ea.dir\\Debug\\cmTC_af3ea.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_af3ea.dir\\Debug\\\\" /Fd"cmTC_af3ea.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\cmake-3.27.0-rc4-windows-x86_64\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.35.32217.1 для x64
+          CMakeCCompilerABI.c
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_af3ea.dir\\Debug\\\\" /Fd"cmTC_af3ea.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\cmake-3.27.0-rc4-windows-x86_64\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Projects\\YouBot\\youbot_driver\\build\\CMakeFiles\\CMakeScratch\\TryCompile-okl7g8\\Debug\\cmTC_af3ea.exe" /INCREMENTAL /ILK:"cmTC_af3ea.dir\\Debug\\cmTC_af3ea.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Projects/YouBot/youbot_driver/build/CMakeFiles/CMakeScratch/TryCompile-okl7g8/Debug/cmTC_af3ea.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Projects/YouBot/youbot_driver/build/CMakeFiles/CMakeScratch/TryCompile-okl7g8/Debug/cmTC_af3ea.lib" /MACHINE:X64  /machine:x64 cmTC_af3ea.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_af3ea.vcxproj -> C:\\Projects\\YouBot\\youbot_driver\\build\\CMakeFiles\\CMakeScratch\\TryCompile-okl7g8\\Debug\\cmTC_af3ea.exe
+        FinalizeBuildStatus:
+          Файл "cmTC_af3ea.dir\\Debug\\cmTC_af3ea.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_af3ea.dir\\Debug\\cmTC_af3ea.tlog\\cmTC_af3ea.lastbuildstate".
+        Сборка проекта "C:\\Projects\\YouBot\\youbot_driver\\build\\CMakeFiles\\CMakeScratch\\TryCompile-okl7g8\\cmTC_af3ea.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:00.49
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/cmake-3.27.0-rc4-windows-x86_64/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/cmake-3.27.0-rc4-windows-x86_64/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Projects/YouBot/youbot_driver/build/CMakeFiles/CMakeScratch/TryCompile-t94cvg"
+      binary: "C:/Projects/YouBot/youbot_driver/build/CMakeFiles/CMakeScratch/TryCompile-t94cvg"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Projects/YouBot/youbot_driver/build/CMakeFiles/CMakeScratch/TryCompile-t94cvg'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_8696c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+        Сборка начата 24.07.2023 20:48:00.
+        Included response file: C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\MSBuild.rsp
+        
+        Проект "C:\\Projects\\YouBot\\youbot_driver\\build\\CMakeFiles\\CMakeScratch\\TryCompile-t94cvg\\cmTC_8696c.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_8696c.dir\\Debug\\".
+          Создание каталога "C:\\Projects\\YouBot\\youbot_driver\\build\\CMakeFiles\\CMakeScratch\\TryCompile-t94cvg\\Debug\\".
+          Создание каталога "cmTC_8696c.dir\\Debug\\cmTC_8696c.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_8696c.dir\\Debug\\cmTC_8696c.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_8696c.dir\\Debug\\\\" /Fd"cmTC_8696c.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\cmake-3.27.0-rc4-windows-x86_64\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.35.32217.1 для x64
+          CMakeCXXCompilerABI.cpp
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_8696c.dir\\Debug\\\\" /Fd"cmTC_8696c.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\cmake-3.27.0-rc4-windows-x86_64\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Projects\\YouBot\\youbot_driver\\build\\CMakeFiles\\CMakeScratch\\TryCompile-t94cvg\\Debug\\cmTC_8696c.exe" /INCREMENTAL /ILK:"cmTC_8696c.dir\\Debug\\cmTC_8696c.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Projects/YouBot/youbot_driver/build/CMakeFiles/CMakeScratch/TryCompile-t94cvg/Debug/cmTC_8696c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Projects/YouBot/youbot_driver/build/CMakeFiles/CMakeScratch/TryCompile-t94cvg/Debug/cmTC_8696c.lib" /MACHINE:X64  /machine:x64 cmTC_8696c.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_8696c.vcxproj -> C:\\Projects\\YouBot\\youbot_driver\\build\\CMakeFiles\\CMakeScratch\\TryCompile-t94cvg\\Debug\\cmTC_8696c.exe
+        FinalizeBuildStatus:
+          Файл "cmTC_8696c.dir\\Debug\\cmTC_8696c.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_8696c.dir\\Debug\\cmTC_8696c.tlog\\cmTC_8696c.lastbuildstate".
+        Сборка проекта "C:\\Projects\\YouBot\\youbot_driver\\build\\CMakeFiles\\CMakeScratch\\TryCompile-t94cvg\\cmTC_8696c.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:00.46
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/cmake-3.27.0-rc4-windows-x86_64/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/cmake-3.27.0-rc4-windows-x86_64/share/cmake-3.27/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "C:/Program Files/cmake-3.27.0-rc4-windows-x86_64/share/cmake-3.27/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "C:/Program Files/cmake-3.27.0-rc4-windows-x86_64/share/cmake-3.27/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "C:/Program Files/cmake-3.27.0-rc4-windows-x86_64/share/cmake-3.27/Modules/FindBoost.cmake:2129 (find_package)"
+      - "CMakeLists.txt:4 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/Projects/YouBot/youbot_driver/build/CMakeFiles/CMakeScratch/TryCompile-h2tk3b"
+      binary: "C:/Projects/YouBot/youbot_driver/build/CMakeFiles/CMakeScratch/TryCompile-h2tk3b"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Projects/YouBot/youbot_driver/build/CMakeFiles/CMakeScratch/TryCompile-h2tk3b'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_b18d7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+        Сборка начата 24.07.2023 20:48:01.
+        Included response file: C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\MSBuild.rsp
+        
+        Проект "C:\\Projects\\YouBot\\youbot_driver\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h2tk3b\\cmTC_b18d7.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_b18d7.dir\\Debug\\".
+          Создание каталога "C:\\Projects\\YouBot\\youbot_driver\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h2tk3b\\Debug\\".
+          Создание каталога "cmTC_b18d7.dir\\Debug\\cmTC_b18d7.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_b18d7.dir\\Debug\\cmTC_b18d7.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b18d7.dir\\Debug\\\\" /Fd"cmTC_b18d7.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Projects\\YouBot\\youbot_driver\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h2tk3b\\src.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.35.32217.1 для x64
+          src.c
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b18d7.dir\\Debug\\\\" /Fd"cmTC_b18d7.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Projects\\YouBot\\youbot_driver\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h2tk3b\\src.c"
+        C:\\Projects\\YouBot\\youbot_driver\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h2tk3b\\src.c(1,10): fatal  error C1083: Не удается открыть файл включение: pthread.h: No such file or directory, [C:\\Projects\\YouBot\\youbot_driver\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h2tk3b\\cmTC_b18d7.vcxproj]
+        Сборка проекта "C:\\Projects\\YouBot\\youbot_driver\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h2tk3b\\cmTC_b18d7.vcxproj" завершена (целевые объекты по умолчанию) с ошибкой.
+        
+        Ошибка сборки.
+        
+        "C:\\Projects\\YouBot\\youbot_driver\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h2tk3b\\cmTC_b18d7.vcxproj" (целевой объект по умолчанию) (1) ->
+        (Целевой объект ClCompile) -> 
+          C:\\Projects\\YouBot\\youbot_driver\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h2tk3b\\src.c(1,10): fatal  error C1083: Не удается открыть файл включение: pthread.h: No such file or directory, [C:\\Projects\\YouBot\\youbot_driver\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h2tk3b\\cmTC_b18d7.vcxproj]
+        
+            Предупреждений: 0
+            Ошибок: 1
+        
+        Прошло времени 00:00:00.31
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/cmake-3.27.0-rc4-windows-x86_64/share/cmake-3.27/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "C:/Program Files/cmake-3.27.0-rc4-windows-x86_64/share/cmake-3.27/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/cmake-3.27.0-rc4-windows-x86_64/share/cmake-3.27/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "C:/Program Files/cmake-3.27.0-rc4-windows-x86_64/share/cmake-3.27/Modules/FindBoost.cmake:2129 (find_package)"
+      - "CMakeLists.txt:4 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "C:/Projects/YouBot/youbot_driver/build/CMakeFiles/CMakeScratch/TryCompile-4adrj9"
+      binary: "C:/Projects/YouBot/youbot_driver/build/CMakeFiles/CMakeScratch/TryCompile-4adrj9"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Projects/YouBot/youbot_driver/build/CMakeFiles/CMakeScratch/TryCompile-4adrj9'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_15952.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+        Сборка начата 24.07.2023 20:48:01.
+        Included response file: C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\MSBuild.rsp
+        
+        Проект "C:\\Projects\\YouBot\\youbot_driver\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4adrj9\\cmTC_15952.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_15952.dir\\Debug\\".
+          Создание каталога "C:\\Projects\\YouBot\\youbot_driver\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4adrj9\\Debug\\".
+          Создание каталога "cmTC_15952.dir\\Debug\\cmTC_15952.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_15952.dir\\Debug\\cmTC_15952.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_15952.dir\\Debug\\\\" /Fd"cmTC_15952.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Projects\\YouBot\\youbot_driver\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4adrj9\\CheckFunctionExists.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.35.32217.1 для x64
+          CheckFunctionExists.c
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_15952.dir\\Debug\\\\" /Fd"cmTC_15952.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Projects\\YouBot\\youbot_driver\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4adrj9\\CheckFunctionExists.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Projects\\YouBot\\youbot_driver\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4adrj9\\Debug\\cmTC_15952.exe" /INCREMENTAL /ILK:"cmTC_15952.dir\\Debug\\cmTC_15952.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Projects/YouBot/youbot_driver/build/CMakeFiles/CMakeScratch/TryCompile-4adrj9/Debug/cmTC_15952.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Projects/YouBot/youbot_driver/build/CMakeFiles/CMakeScratch/TryCompile-4adrj9/Debug/cmTC_15952.lib" /MACHINE:X64  /machine:x64 cmTC_15952.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: не удается открыть файл "pthreads.lib" [C:\\Projects\\YouBot\\youbot_driver\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4adrj9\\cmTC_15952.vcxproj]
+        Сборка проекта "C:\\Projects\\YouBot\\youbot_driver\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4adrj9\\cmTC_15952.vcxproj" завершена (целевые объекты по умолчанию) с ошибкой.
+        
+        Ошибка сборки.
+        
+        "C:\\Projects\\YouBot\\youbot_driver\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4adrj9\\cmTC_15952.vcxproj" (целевой объект по умолчанию) (1) ->
+        (Целевой объект Link) -> 
+          LINK : fatal error LNK1104: не удается открыть файл "pthreads.lib" [C:\\Projects\\YouBot\\youbot_driver\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4adrj9\\cmTC_15952.vcxproj]
+        
+            Предупреждений: 0
+            Ошибок: 1
+        
+        Прошло времени 00:00:00.41
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/cmake-3.27.0-rc4-windows-x86_64/share/cmake-3.27/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "C:/Program Files/cmake-3.27.0-rc4-windows-x86_64/share/cmake-3.27/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/cmake-3.27.0-rc4-windows-x86_64/share/cmake-3.27/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "C:/Program Files/cmake-3.27.0-rc4-windows-x86_64/share/cmake-3.27/Modules/FindBoost.cmake:2129 (find_package)"
+      - "CMakeLists.txt:4 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "C:/Projects/YouBot/youbot_driver/build/CMakeFiles/CMakeScratch/TryCompile-8j5etg"
+      binary: "C:/Projects/YouBot/youbot_driver/build/CMakeFiles/CMakeScratch/TryCompile-8j5etg"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Projects/YouBot/youbot_driver/build/CMakeFiles/CMakeScratch/TryCompile-8j5etg'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_bd932.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+        Сборка начата 24.07.2023 20:48:02.
+        Included response file: C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\MSBuild.rsp
+        
+        Проект "C:\\Projects\\YouBot\\youbot_driver\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8j5etg\\cmTC_bd932.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_bd932.dir\\Debug\\".
+          Создание каталога "C:\\Projects\\YouBot\\youbot_driver\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8j5etg\\Debug\\".
+          Создание каталога "cmTC_bd932.dir\\Debug\\cmTC_bd932.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_bd932.dir\\Debug\\cmTC_bd932.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bd932.dir\\Debug\\\\" /Fd"cmTC_bd932.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Projects\\YouBot\\youbot_driver\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8j5etg\\CheckFunctionExists.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.35.32217.1 для x64
+          CheckFunctionExists.c
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bd932.dir\\Debug\\\\" /Fd"cmTC_bd932.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Projects\\YouBot\\youbot_driver\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8j5etg\\CheckFunctionExists.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Projects\\YouBot\\youbot_driver\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8j5etg\\Debug\\cmTC_bd932.exe" /INCREMENTAL /ILK:"cmTC_bd932.dir\\Debug\\cmTC_bd932.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Projects/YouBot/youbot_driver/build/CMakeFiles/CMakeScratch/TryCompile-8j5etg/Debug/cmTC_bd932.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Projects/YouBot/youbot_driver/build/CMakeFiles/CMakeScratch/TryCompile-8j5etg/Debug/cmTC_bd932.lib" /MACHINE:X64  /machine:x64 cmTC_bd932.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: не удается открыть файл "pthread.lib" [C:\\Projects\\YouBot\\youbot_driver\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8j5etg\\cmTC_bd932.vcxproj]
+        Сборка проекта "C:\\Projects\\YouBot\\youbot_driver\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8j5etg\\cmTC_bd932.vcxproj" завершена (целевые объекты по умолчанию) с ошибкой.
+        
+        Ошибка сборки.
+        
+        "C:\\Projects\\YouBot\\youbot_driver\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8j5etg\\cmTC_bd932.vcxproj" (целевой объект по умолчанию) (1) ->
+        (Целевой объект Link) -> 
+          LINK : fatal error LNK1104: не удается открыть файл "pthread.lib" [C:\\Projects\\YouBot\\youbot_driver\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8j5etg\\cmTC_bd932.vcxproj]
+        
+            Предупреждений: 0
+            Ошибок: 1
+        
+        Прошло времени 00:00:00.38
+        
+      exitCode: 1
+...
