@@ -1,0 +1,11 @@
+﻿  main.cpp
+soem.lib(ethercatmain.obj) : warning LNK4099: "" PDB не найден с "soem.lib(ethercatmain.obj)" или на ""; компоновка объекта выполняется как при отсутствии отладочных данных
+soem.lib(ethercatconfig.obj) : warning LNK4099: "" PDB не найден с "soem.lib(ethercatconfig.obj)" или на ""; компоновка объекта выполняется как при отсутствии отладочных данных
+soem.lib(ethercatprint.obj) : warning LNK4099: "" PDB не найден с "soem.lib(ethercatprint.obj)" или на ""; компоновка объекта выполняется как при отсутствии отладочных данных
+soem.lib(osal.obj) : warning LNK4099: "" PDB не найден с "soem.lib(osal.obj)" или на ""; компоновка объекта выполняется как при отсутствии отладочных данных
+soem.lib(nicdrv.obj) : warning LNK4099: "" PDB не найден с "soem.lib(nicdrv.obj)" или на ""; компоновка объекта выполняется как при отсутствии отладочных данных
+soem.lib(oshw.obj) : warning LNK4099: "" PDB не найден с "soem.lib(oshw.obj)" или на ""; компоновка объекта выполняется как при отсутствии отладочных данных
+soem.lib(ethercatbase.obj) : warning LNK4099: "" PDB не найден с "soem.lib(ethercatbase.obj)" или на ""; компоновка объекта выполняется как при отсутствии отладочных данных
+soem.lib(ethercatcoe.obj) : warning LNK4099: "" PDB не найден с "soem.lib(ethercatcoe.obj)" или на ""; компоновка объекта выполняется как при отсутствии отладочных данных
+soem.lib(ethercatsoe.obj) : warning LNK4099: "" PDB не найден с "soem.lib(ethercatsoe.obj)" или на ""; компоновка объекта выполняется как при отсутствии отладочных данных
+  youbot_windows_demo.vcxproj -> C:\Projects\YouBot\youbot_windows_demo-master\build\Debug\youbot_windows_demo.exe

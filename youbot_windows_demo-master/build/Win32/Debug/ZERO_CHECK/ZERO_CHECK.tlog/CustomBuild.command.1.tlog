@@ -1,0 +1,10 @@
+^C:\PROJECTS\YOUBOT\YOUBOT_WINDOWS_DEMO-MASTER\BUILD\CMAKEFILES\DAEB4EEE288498515ED2B0D30565986F\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\cmake-3.27.0-rc4-windows-x86_64\bin\cmake.exe" -SC:/Projects/YouBot/youbot_windows_demo-master -BC:/Projects/YouBot/youbot_windows_demo-master/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Projects/YouBot/youbot_windows_demo-master/build/youbot_windows_demo.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
