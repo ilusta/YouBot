@@ -1,0 +1,43 @@
+﻿  Building Custom Rule C:/Projects/YouBot/youbot_driver/CMakeLists.txt
+  EthercatMaster.cpp
+  EthercatMasterWithThread.cpp
+C:\Projects\YouBot\youbot_driver\src\youbot\EthercatMasterWithThread.cpp(574,47): warning C4244: =: преобразование "__int64" в "long", возможна потеря данных
+  EthercatMasterWithoutThread.cpp
+  Logger.cpp
+  ConfigFile.cpp
+  PidController.cpp
+  JointData.cpp
+  JointTrajectory.cpp
+  YouBotJoint.cpp
+C:\Projects\YouBot\youbot_driver\src\youbot\YouBotJoint.cpp(196,30): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+C:\Projects\YouBot\youbot_driver\src\youbot\YouBotJoint.cpp(198,31): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+C:\Projects\YouBot\youbot_driver\src\youbot\YouBotJoint.cpp(347,5): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  JointLimitMonitor.cpp
+  YouBotBase.cpp
+  YouBotManipulator.cpp
+C:\Projects\YouBot\youbot_driver\src\youbot\YouBotManipulator.cpp(174,35): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+C:\Projects\YouBot\youbot_driver\src\youbot\YouBotManipulator.cpp(176,36): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+  YouBotGripper.cpp
+C:\Projects\YouBot\youbot_driver\src\youbot\YouBotGripper.cpp(125,5): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Projects\YouBot\youbot_driver\src\youbot\YouBotGripper.cpp(178,34): warning C4146: применение унарного минуса к типу без знака; результат оставлен без знака
+  YouBotGripperBar.cpp
+C:\Projects\YouBot\youbot_driver\src\youbot\YouBotGripperBar.cpp(232,65): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+  YouBotGripperParameter.cpp
+  DataTrace.cpp
+C:\Projects\YouBot\youbot_driver\src\youbot\DataTrace.cpp(479,59): warning C4244: =: преобразование "__int64" в "unsigned long", возможна потеря данных
+  GripperDataTrace.cpp
+C:\Projects\YouBot\youbot_driver\src\youbot\GripperDataTrace.cpp(219,59): warning C4244: =: преобразование "__int64" в "unsigned long", возможна потеря данных
+  YouBotJointParameter.cpp
+  YouBotJointParameterReadOnly.cpp
+  YouBotJointParameterPasswordProtected.cpp
+C:\Projects\YouBot\youbot_driver\src\youbot\YouBotJointParameterPasswordProtected.cpp(1084,46): warning C4244: =: преобразование "double" в "uint32", возможна потеря данных
+C:\Projects\YouBot\youbot_driver\src\youbot\YouBotJointParameterPasswordProtected.cpp(1198,46): warning C4244: =: преобразование "double" в "uint32", возможна потеря данных
+C:\Projects\YouBot\youbot_driver\src\youbot\YouBotJointParameterPasswordProtected.cpp(1256,46): warning C4244: =: преобразование "double" в "uint32", возможна потеря данных
+C:\Projects\YouBot\youbot_driver\src\youbot\YouBotJointParameterPasswordProtected.cpp(1625,46): warning C4244: =: преобразование "double" в "uint32", возможна потеря данных
+  Создание кода...
+  Компиляция...
+  JointTrajectoryController.cpp
+  FourSwedishWheelOmniBaseKinematic.cpp
+  FourSwedishWheelOmniBaseKinematicConfiguration.cpp
+  Создание кода...
+  YouBotDriver.vcxproj -> C:\Projects\YouBot\youbot_driver\build\Debug\YouBotDriver.lib
